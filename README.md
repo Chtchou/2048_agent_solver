@@ -8,7 +8,7 @@ The game rules can be found here: http://mypuzzle.org/sliding
 An instance of the 2048-puzzle game is played on a 4×4 grid, with numbered tiles that slide in all four directions when a player moves them. Every turn, a new tile will randomly appear in an empty spot on the board, with a value of either 2 or 4. Per the input direction given by the player, all tiles on the grid slide as far as possible in that direction, until they either (1) collide with another tile, or (2) collide with the edge of the grid. If two tiles of the same number collide while moving, they will merge into a single tile, valued at the sum of the two original tiles that collided. The resulting tile cannot merge with another tile again in the same move.
 
 
-<img src="https://studio.edx.org/asset-v1:ColumbiaX+CSMM.101x+1T2017+type@asset+block@p2_1.png" width="400">
+<img src="https://studio.edx.org/asset-v1:ColumbiaX+CSMM.101x+1T2017+type@asset+block@p2_1.png" width="200">
 
 Here the computer is responsible for placing random tiles of 2 or 4 on the board, while the player is responsible for moving the pieces. However, adversarial search can be applied to this game just the same.
 
